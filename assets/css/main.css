@@ -2,14 +2,69 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 
 .logo{
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
   text-align: center;
+}
+
+.member img{
+  width: 300px;
 }
 
 
 
+/* Team Section
+--------------------------------*/
 
+.products{
+  border: 0px red solid;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.products img{
+  width: 300px;;
+}
+
+.product-container{
+width: 300px;
+border: 0px solid blue;
+display: inline-block;
+margin-right: 50px;
+margin-bottom: 50px;
+position:  relative;
+overflow: hidden;
+}
+
+.product-info{
+position: absolute;
+bottom: 0;
+width: 300px;
+height: 70px;
+background-color: #111111a8;
+transition: 0.4s;
+}
+
+.text{
+z-index: 4;
+color: #fff;
+}
+
+.product-info h4{
+  margin-top: 10px;
+  margin-bottom: 45px;
+  color: #fff;
+}
+
+.product-info:hover{
+  height: 140px;
+}
+
+.center{
+  border:0px solid green;
+  width: 90%;
+  margin: 0 auto;
+}
 
 
 
@@ -2454,7 +2509,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #005799;
+  background: #005799af;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;

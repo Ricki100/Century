@@ -7,6 +7,10 @@
   text-align: center;
 }
 
+#banner{
+  background-attachment: fixed;
+}
+
 .member img{
   width: 300px;
 }

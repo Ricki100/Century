@@ -20,6 +20,7 @@
   border: 0px red solid;
   text-align: center;
   margin-top: 100px;
+  position: relative;
 }
 
 .products img{
@@ -2483,7 +2484,7 @@ body {
   padding-top: 3.25rem; }
   body:before {
     content: ' ';
-    background-image: url(../../images/bg.jpg);
+    /*background-image: url(../../images/bg.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

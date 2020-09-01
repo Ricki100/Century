@@ -71,6 +71,20 @@ color: #fff;
   margin: 0 auto;
 }
 
+.form{
+  text-align: center;
+  border: 0px red solid;
+}
+
+form{
+  margin: 0 auto;
+}
+
+.input{
+  width: 20% !important;
+  margin: 0 auto;
+}
+
 
 
 

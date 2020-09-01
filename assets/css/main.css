@@ -85,6 +85,10 @@ form{
   margin: 0 auto;
 }
 
+.contact-text{
+  color: white;
+}
+
 
 
 
@@ -2316,7 +2320,7 @@ ul.icons {
 
 /* Footer */
 #footer {
-  background-color: #111111;
+  background-color: #005799;
   color: rgba(255, 255, 255, 0.5);
   padding: 8rem 0 6rem 0 ; }
   #footer input, #footer select, #footer textarea {
@@ -2528,7 +2532,7 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #005799af;
+  background: #005799;
   color: rgba(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;

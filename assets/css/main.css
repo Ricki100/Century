@@ -81,7 +81,7 @@ form{
 }
 
 .input{
-  width: 20% !important;
+  width: 30% !important;
   margin: 0 auto;
 }
 
@@ -213,6 +213,18 @@ form{
   100% {
     transform: translate(-50%,50px);
     opacity: 0;
+  }
+}
+
+@media(max-width:1600px){
+  .logo{
+    height: 350px;
+    width: 350px;
+  }
+
+  .input{
+    width: 40% !important;
+    
   }
 }
 

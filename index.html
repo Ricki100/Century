@@ -17,6 +17,10 @@
 	</head>
 	<body class="is-preload">
 
+		<div class="loader-wrapper">
+			<span class="loader"><span class="loader-inner"></span></span>
+		</div>
+
 		<!-- Header -->
 			<header id="header">
 				<a class="logo wow fadeIn delay-1" style="animation-duration: 3s;" href="index.html">CENTURY PLUMBING SUPPLIERS</a>
@@ -610,11 +614,16 @@
 				new WOW().init();
 				</script>
 			  
-				<script src="././js/index.js"></script>
 			  
 			  
 			  <script data-cfasync="false" type="text/javascript"
 			  src="form-submission-handler.js"></script>
+
+			  <script>
+				  $(window).on("load",function(){
+     $(".loader-wrapper").fadeOut("slow");
+});
+			  </script>
 
 	</body>
 </html>
